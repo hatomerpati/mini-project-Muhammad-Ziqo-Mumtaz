@@ -68,10 +68,10 @@ console.log(productData)
                      <div>
                         <Link to="https://wa.link/3m5siz">
                           <Button type="primary">Order</Button>
-                       
+                        </Link>
                         </div>
                     </Card>
-                  </Link>
+              
                 </Col>
               ))}
             </Row>
