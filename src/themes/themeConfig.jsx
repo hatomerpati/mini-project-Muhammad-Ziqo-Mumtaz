@@ -1,6 +1,6 @@
 export const ThemeConfig = {
   token: {
-    colorPrimary: "#00b96b",
+    colorPrimary: "orange",
     borderRadius: "10px",
   },
 };

@@ -1,0 +1,35 @@
+.body {
+    margin: 0 100px;
+}
+
+/* Hero */
+
+.Hero {
+   
+   width: 1920px;
+  
+   justify-content: center;
+  
+}
+.Banner-card {
+ 
+   
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+/*  End Of Hero */
+/* Item Carousel*/
+.Item-Carousel{
+    width: 100%;
+}
+
+/* Promotion */
+.Promotion {
+     height: autopx;
+    background-color:chocolate;
+    padding: 0 50px;
+    width: 100%;
+
+}

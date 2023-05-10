@@ -1,3 +1,4 @@
+import { uploaderAPI } from "../../../../../Downloads/vite-project (5)/vite-project/src/config/apiService";
 import { baseAPI, productAPI } from "../config/apiServices";
 
 
@@ -44,4 +45,7 @@ export const api = {
     updateProduct: (id, body) => {
         return productAPI.put(`/product/${id}`, body)
     },
+    uploader: (body) => {
+        return uploaderAPI.post("/dt5fjvwg6/image/upload", body);
+      },
 };

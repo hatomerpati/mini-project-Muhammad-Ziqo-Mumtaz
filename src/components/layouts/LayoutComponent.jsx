@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import useWindowWidth from "../../hooks/useWindowWidth";
 import { MENU_ITEM } from "./constants";
 import "./menu.css"
+import { logo } from "../../assets/assets";
 
 
 const LayoutComponent = ({ children }) => {
@@ -37,16 +38,17 @@ const LayoutComponent = ({ children }) => {
           }}
         >
           <Link href="/">
-            <div
+            <a
             
               style={{
                 float: "left",
-                width: 120,
-                height: 31,
-                margin: "16px 24px 16px 0",
+              
+                
                 background: "rgba(255, 255, 255, 0.2)",
               }}
-            />
+            >
+              <img src={logo} width="70px"></img>
+            </a>
           </Link>
 
           <Menu

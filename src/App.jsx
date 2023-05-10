@@ -1,12 +1,16 @@
-import "./App.css";
-import RouteManagement from "./router/RouteManagement";
+
+
+import './App.css'
+import RouteManagement from './router/RouteManagement'
+
 
 function App() {
-  return ( 
+
+  return (
     <>
-   <RouteManagement/>
-   </>
-  );
+    <RouteManagement/>
+    </>
+  )
 }
 
-export default App;
+export default App
