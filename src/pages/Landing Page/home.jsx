@@ -10,7 +10,7 @@ import { Yakubo, ohma } from "../../assets/assets";
 import { GET_PRODUCT } from "./query/product-query";
 import { useQuery } from "@apollo/client";
 import { Link } from "react-router-dom";
-import Gap from "../../components/gap/Gap";
+
 
 
 const Home = () => {
@@ -68,9 +68,9 @@ const Home = () => {
                         Rp:   <b>{item.productPrice}</b>
                         
                       </div>
-                      <Gap height={5}/> 
+                     
                      Category: <b>{item.productCategory}</b>
-                     <Gap height={20}/> 
+                    
                      <div>
                         <Link to="https://wa.link/3m5siz">
                           <Button type="primary">Order</Button>
