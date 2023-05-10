@@ -53,7 +53,7 @@ console.log(productData)
             <Row gutter={[10]} justify="start">
               {data?.map((item) => (
                 <Col key={item.uuid} >
-                  <Link to={`/product/${item.uuid}`}>
+                 
                     <Card title={item.productName} style={{ margin: "20px", width:"300px"}}
                     cover={<img src={item.avatar} width="100px"/>}>
                       <div className="space">
@@ -68,7 +68,7 @@ console.log(productData)
                      <div>
                         <Link to="https://wa.link/3m5siz">
                           <Button type="primary">Order</Button>
-                        </Link>
+                       
                         </div>
                     </Card>
                   </Link>
