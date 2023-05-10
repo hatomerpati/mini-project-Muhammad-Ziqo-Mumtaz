@@ -16,4 +16,8 @@ export const productAPI = axios.create(
     
 );
 
+export const uploaderAPI = axios.create({
+    baseURL: "https://api.cloudinary.com/v1_1",
+  });
+
 
