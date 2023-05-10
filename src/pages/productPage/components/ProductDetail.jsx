@@ -2,7 +2,7 @@ import { useQuery } from "@apollo/client";
 import React from "react";
 import { useParams } from "react-router-dom";
 import { GET_PRODUCT_BY_PK } from "../query/product-query";
-import Gap from "../../../components/gap/Gap";
+
 
 const ProductDetail = () => {
   const { uuid } = useParams();
