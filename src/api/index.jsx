@@ -1,5 +1,6 @@
-import { uploaderAPI } from "../../../../../Downloads/vite-project (5)/vite-project/src/config/apiService";
-import { baseAPI, productAPI } from "../config/apiServices";
+
+import { baseAPI, productAPI, uploaderAPI } from "../config/apiServices";
+import { uploaderConfig } from "../config/uploader-config";
 
 
 
