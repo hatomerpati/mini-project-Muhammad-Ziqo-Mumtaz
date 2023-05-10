@@ -62,9 +62,9 @@ console.log(productData)
                         Rp:   <b>{item.productPrice}</b>
                         
                       </div>
-                      <Gap height={5}/> 
+                     <br/>
                      Category: <b>{item.productCategory}</b>
-                     <Gap height={20}/> 
+                     <br/> 
                      <div>
                         <Link to="https://wa.link/3m5siz">
                           <Button type="primary">Order</Button>
