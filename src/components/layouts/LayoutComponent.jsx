@@ -1,4 +1,4 @@
-import { Layout, Menu } from "antd";
+import { Col, Layout, Menu, Row } from "antd";
 const { Header, Content, Footer } = Layout;
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
@@ -74,7 +74,19 @@ const LayoutComponent = ({ children }) => {
           </div>
           </div>
         </Content>
-        <Footer></Footer>
+        <Footer>
+          <Row justify="center">
+            <Col>
+           
+            <img src={logo} width="200px"></img>
+
+            </Col>
+            <Col>
+            
+            </Col>
+            <Col></Col>
+          </Row>
+        </Footer>
       </Layout>
 
     </>
