@@ -58,13 +58,13 @@ console.log(productData)
                     cover={<img src={item.avatar} width="100px"/>}>
                       <div className="space">
                         <b>{item.productName}</b>
-                        <br>  </br>
+                    
                         Rp:   <b>{item.productPrice}</b>
                         
                       </div>
-                     <br/>
+                 
                      Category: <b>{item.productCategory}</b>
-                     <br/> 
+              
                      <div>
                         <Link to="https://wa.link/3m5siz">
                           <Button type="primary">Order</Button>

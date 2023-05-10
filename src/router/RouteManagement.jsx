@@ -28,6 +28,7 @@ const RouteManagement = () => {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/admin" element={<LoginPage />} />
+            <Route path="/hato" element={<LoginPage />} />
             <Route path="/About" element={<AboutMe />} />
             <Route path="/Content" element={<Contentful />} />
             
