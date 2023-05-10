@@ -53,15 +53,18 @@ const Home = () => {
       <br />
       <br />
       {/* Promotion*/}
-      <Row>
+      <Row justify="center">
+        <h1>Our Products</h1>
         <div className="Promotion">
-        <Slider  >
-        <Row gutter={[10]} justify="start">
+      
+        <Carousel slidesToShow={3} slidesPerRow={1} autoplay  >
               {data?.map((item) => (
-                <Col key={item.uuid} span={12}>
-                  <Link to={`/product/${item.uuid}`}>
-                    <Card title={item.productName} style={{ margin: "20px", width:"300px"}}
-                    cover={<img src={item.avatar} width="100px"/>}>
+                
+                  <Row >
+                  
+                  <Link to={`/product`}>
+                    <Card key={item.uuid} title={item.productName} style={{ margin: "20px", width:"300px" }}
+                    cover={<img src={item.avatar} heigth="400px"/>}>
                       <div className="space">
                         <b>{item.productName}</b>
                        
@@ -78,13 +81,17 @@ const Home = () => {
                         </div>
                     </Card>
                   </Link>
-                </Col>
+                
+                  </Row>
+               
+      
+        
               ))}
-            </Row>
-     
+               </Carousel>
+                  
+            </div>
     
-        </Slider>
-        </div>
+        
       </Row>
       {/* Item Card*/}
       <Row>

@@ -52,7 +52,7 @@ console.log(productData)
           {data.length > 0 ? (
             <Row gutter={[10]} justify="start">
               {data?.map((item) => (
-                <Col key={item.uuid} span={12}>
+                <Col key={item.uuid} >
                   <Link to={`/product/${item.uuid}`}>
                     <Card title={item.productName} style={{ margin: "20px", width:"300px"}}
                     cover={<img src={item.avatar} width="100px"/>}>
