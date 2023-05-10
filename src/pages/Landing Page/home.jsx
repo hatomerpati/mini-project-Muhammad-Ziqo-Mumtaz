@@ -5,12 +5,13 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 import Slider from "react-slick";
-import { Asuka, Yakubo, ohma } from "../../assets/assets";
-import Column from "antd/es/table/Column";
+import { Yakubo, ohma } from "../../assets/assets";
+
 import { GET_PRODUCT } from "./query/product-query";
 import { useQuery } from "@apollo/client";
 import { Link } from "react-router-dom";
 import Gap from "../../components/gap/Gap";
+
 
 const Home = () => {
   const {

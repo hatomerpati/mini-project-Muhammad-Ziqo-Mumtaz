@@ -58,7 +58,7 @@ console.log(productData)
                     cover={<img src={item.avatar} width="100px"/>}>
                       <div className="space">
                         <b>{item.productName}</b>
-                        <br></br>
+                        <br>  </br>
                         Rp:   <b>{item.productPrice}</b>
                         
                       </div>
