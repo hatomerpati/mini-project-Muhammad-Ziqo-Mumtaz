@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Gap from "../../components/gap/Gap";
+
 import { useQuery } from "@apollo/client";
 import { GET_PRODUCT } from "./query/product-query";
 import { Button, Card, Col, Input, Result, Row } from "antd";
@@ -39,7 +39,7 @@ console.log(productData)
       ) : (
         <>
           <h1>Product List</h1>
-          <Gap height={20} />
+        <br/>
 
           <Input
             placeholder="Search Product Here"
@@ -47,7 +47,7 @@ console.log(productData)
             onChange={handleSearch}
           />
 
-          <Gap height={20} />
+        <br/>
 
           {data.length > 0 ? (
             <Row gutter={[10]} justify="start">
