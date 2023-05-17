@@ -57,7 +57,7 @@ console.log(productData)
                     <Card title={item.productName} style={{ margin: "20px", width:"300px"}}
                     cover={<img src={item.avatar} width="100px"/>}>
                       <div className="space">
-                        <b>{item.productName}</b>
+                      
                     
                         Rp:   <b>{item.productPrice}</b>
                         
